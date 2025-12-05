@@ -6,4 +6,7 @@ config.font_size = 16
 config.font = wezterm.font("MesloLGS Nerd Font")
 config.color_scheme = "Astrodark (Gogh)"
 
+local keys = require("keys")
+
+config.keys = keys
 return config
