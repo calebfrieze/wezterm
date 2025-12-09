@@ -10,4 +10,9 @@ return {
 		mods = "CTRL",
 		action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
 	},
+	{
+		key = "[",
+		mods = "CTRL",
+		action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
+	},
 }
